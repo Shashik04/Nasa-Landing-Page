@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<link>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NASA Website</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+    
+</head>
+<body>
+   
+    
+        <header>
+            <nav class="navbar">
+               
+                <div class="nav-left">
+                    <div class="dropdown">
+                        <button class="dropbtn">Explore</button>
+                        <div class="dropdown-content">
+                            <a href="#">Planets</a>
+                            <a href="#">Stars</a>
+                            <a href="#">Galaxies</a>
+                            <a href="#">Missions</a>
+                        </div>
+                    </div>
+                    <input type="text" class="search-bar" placeholder="Search...">
+                </div>
+    
+               
+                <div class="logo">
+                    <img src="./Images/nasa-logo-png.png" alt="NASA Logo">
+                </div>
+    
+                
+                <div class="nav-right">
+                    <div class="dropdown">
+                        <button class="dropbtn">News & Events</button>
+                        <div class="dropdown-content">
+                            <a href="#">Latest News</a>
+                            <a href="#">Upcoming Events</a>
+                            <a href="#">Press Releases</a>
+                        </div>
+                    </div>
+                    <div class="dropdown">
+                        <button class="dropbtn">Multimedia</button>
+                        <div class="dropdown-content">
+                            <a href="#">Images</a>
+                            <a href="#">Videos</a>
+                            <a href="#">Podcasts</a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </header>
+    
+        
+        <!-- Video Section -->
+<section id="title" class="gradient-background">
+    <div class="container">
+        <div class="content"></div>
+        <video autoplay muted loop width="100%" height="100%" controls class="back-video">
+            <source src="./Images/NASA-www nasa gov.mp4" type="video/mp4">
+            
+        </video>
+        <div class="row flex-lg-row-reverse align-items-center g-5 pt-5">
+            <div class="col-10 col-sm-8 col-lg-6"></div>
+            <div class="col-lg-6">
+                <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">NASA'S Europa Clipper</h1>
+                <h2>Earth's first mission to conduct detailed reconnaissance of Jupiter's moon, Europa,
+                    launches Oct. 10, 2024.</h2>
+                <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                    <button type="button" class="btn btn-light btn-lg px-4 me-md-2">The Mission</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- New Cards Section (Below Video Section) -->
+<section class="cards-section">
+    <div class="container my-5">
+        <class="row">
+        <div class="featured-news" style="background-color: #f1f1f1; padding: 20px;">
+            
+            <div class="news-item" style="margin-bottom: 100px;">
+              <a href="https://www.nasa.gov/news-release/nasa-sets-coverage-for-europa-clipper-launch-to-jupiter-moon/" style="text-decoration: none; color: black;">
+                <img src="https://www.nasa.gov/wp-content/uploads/2024/10/europa-clipper-16x9-1.webp" alt="Europa Clipper" style="width: 600px; height: auto;">
+                <p style="font-weight: bold; margin-top: 10px;">NASA Sets Coverage for Europa Clipper Launch to Jupiter Moon</p>
+              </a>
+              
+            </div>
+          
+            <div class="news-item" style="margin-bottom: 20px;">
+              <a href="https://www.nasa.gov/directorates/stmd/tech-demo-missions-program/deep-space-optical-communications-dsoc/nasas-laser-comms-demo-makes-deep-space-record-completes-first-phase/" style="text-decoration: none; color: black;">
+                <img src="https://www.nasa.gov/wp-content/uploads/2024/09/1-dsoc-uplink.png" alt="Laser Comms Demo" style="width: 600px; height: auto;">
+                <p style="font-weight: bold; margin-top: 10px;">NASA’s Laser Comms Demo Makes Deep Space Record</p>
+              </a>
+             
+            </div>
+          
+            <div class="news-item" style="margin-bottom: 20px;">
+              <a href="https://www.nasa.gov/missions/artemis/gateway/gateway-stands-tall-for-stress-test/" style="text-decoration: none; color: black;">
+                <img src="https://www.nasa.gov/wp-content/uploads/2024/10/jsc2024e055348.jpg" alt="Gateway Stands Tall" style="width: 600px; height: auto;">
+                <p style="font-weight: bold; margin-top: 10px;">Gateway Stands Tall for Stress Test</p>
+              </a>
+             
+            </div>
+          
+            <div class="news-item" style="margin-bottom: 20px;">
+              <a href="https://www.nasa.gov/general/how-nasa-astronauts-vote-from-space-aboard-international-space-station/" style="text-decoration: none; color: black;">
+                <img src="./Images/american-flag.png" alt="Astronaut Voting" style="width: 600px; height: auto;">
+                <p style="font-weight: bold; margin-top: 10px;">How NASA Astronauts Vote from Space</p>
+              </a>
+             
+            </div>
+          
+            <a href="https://www.nasa.gov/news/all-news/" class="more-news-btn" style="display: inline-block; background-color: #0077be; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px;">More NASA News</a>
+          </div>
+          
+        </div>
+    </div>
+</section>
+<section>
+    <div class="container px-4 py-5" id="hanging-icons">
+        
+        <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+          <div class="col d-flex align-items-start">
+            <div class="text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+              <img src="./Images/students.png" alt="Students image" style="border-radius: 100%;">
+            </div>
+            <div>
+              
+              <p>NASA Announces Teams for 2025 Student Launch Challenge.</p>
+              
+            </div>
+          </div>
+          <div class="col d-flex align-items-start">
+            <div class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+              <img src="./Images/vehicle.png" alt="Vehicle image" style="border-radius: 50%;" >
+            </div>
+            <div>
+              
+              <p>NASA PrePares for Lunar Terrain Vehicle Testing. </p>
+              
+            </div>
+          </div>
+          <div class="col d-flex align-items-start">
+            <div class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+              <img src="./Images/galaxy.png" alt="galaxy image" id="galaxy" height="200px" width="200px" >
+            </div>
+            <div>
+              
+              <p>Hubble Observes a Peculiar Galaxy Shape. </p>
+              
+            </div>
+          </div>
+          
+          </div>
+        </div>
+      </div>
+</section>
+<div class="background-container">
+    <h2 class="page-heading-md font-weight-extrabold line-height-heading-1 color-spacesuit-white-important">Webb and the Jets</h2><br>
+    <p class="p-lg margin-top-2 padding-0 margin-bottom-4 color-spacesuit-white-important">Inspired by the half-human, half-horse creatures of Ancient Greek mythology,<br>
+         the field of astronomy has its own kind of centaurs: distant objects orbiting the Sun between Jupiter and Neptune. <br>
+         NASA’s James Webb Space Telescope has mapped the gases spewing from one of these objects, <br>
+         providing new insights into the formation and evolution of the solar system.</p>
+</div>
+<section class="mood">
+    <div class="row-featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading fw-normal lh-1">Image of The Day. <span class="text-body-secondary">It’ll blow your mind.</span></h2>
+          <h3>Sunglint on the Alabama River</h3>
+          <p class="lead">Some great placeholder content for the first featurette here. Imagine some exciting prose here.</p>
+        </div>
+        <div class="col-md-5">
+          <img src="./Images/green.png" height="500px" width="500px">
+        </div>
+      </div>
+</section>
+
+            
+         
+        <script src="script.js"></script>
+   
+    
+</body>
+
+</html>
